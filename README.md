@@ -1,4 +1,4 @@
-# Desaster-Pipeline
+# Disaster-Response-Pipeline
 
 # Overview
 In this project, using data engineering and NLP skills to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. 

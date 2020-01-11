@@ -6,8 +6,8 @@ In this project, using data engineering and NLP skills to analyze disaster data 
 # Instruction
 Run the following commands in the project's root directory to set up your database and model.
 
-To run ETL pipeline that cleans data and stores in sql database: python pipelines/process_data.py pipelines/disaster_messages.csv pipelines/disaster_categories.csv pipelines/DisasterResponse.db
-To run ML pipeline that trains classifier and saves the model: python pipelines/train_classifier.py pipelines/DisasterResponse.db pipelines/classifier.pkl
+1. To run ETL pipeline that cleans data and stores in sql database: python pipelines/process_data.py pipelines/disaster_messages.csv pipelines/disaster_categories.csv pipelines/DisasterResponse.db
+2. To run ML pipeline that trains classifier and saves the model: python pipelines/train_classifier.py pipelines/DisasterResponse.db pipelines/classifier.pkl
 
 Run the following command in the app's directory to run your web app: python run.py
 

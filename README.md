@@ -25,7 +25,7 @@ Go to http://0.0.0.0:3001/ to check out the API.
 
 # Files
 
-pipelines/disaster_messages.csv pipelines/disaster_categories.csv : original data
-pipelines/process_data.py: to run ETL pipeline that cleans data and stores in database
-pipelines/train_classifier.py: to run ML pipeline that trains classifier and saves
-data/: a Flask framework for presenting data
+1. pipelines/disaster_messages.csv pipelines/disaster_categories.csv : original data
+2. pipelines/process_data.py: to run ETL pipeline that cleans data and stores in database
+3. pipelines/train_classifier.py: to run ML pipeline that trains classifier and saves
+4. app/: a Flask framework for presenting data
